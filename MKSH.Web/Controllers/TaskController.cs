@@ -97,7 +97,7 @@ namespace MKSH.Web.Controllers
 
             var ajaxResult = new AjaxResult();
             ajaxResult.State = "200";
-            ajaxResult.Message = "2获取数据成功！";
+            ajaxResult.Message = "2获取数据成功！222";
 
             return new HttpResponseMessage { Content = new StringContent(ajaxResult.SerializeJson(), System.Text.Encoding.UTF8, "application/json") };
         }
